@@ -1,4 +1,4 @@
-import subprocess, os, glob
+import subprocess, glob, os
 loops = sorted(glob.glob("loops/*.mp4"))
 with open("file_list.txt","w") as f:
     for l in loops:
